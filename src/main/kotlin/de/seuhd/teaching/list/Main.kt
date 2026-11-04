@@ -10,5 +10,6 @@ fun main() {
     list.append(doubleArrayOf(0.5, 4.2, 3.3, 0.9))
 
     println("The list contains the following elements:")
+    println("First element: ${list.get(0)}")
     list.print()
 }
